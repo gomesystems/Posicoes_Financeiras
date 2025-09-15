@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Consumidor_api_Externa": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
