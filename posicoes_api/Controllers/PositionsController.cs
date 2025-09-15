@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Api.Dto;
+using Infra.Repositories.Repositories;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers
 {

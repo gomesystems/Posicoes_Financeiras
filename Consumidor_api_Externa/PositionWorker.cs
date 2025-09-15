@@ -29,7 +29,7 @@ public class PositionWorker : BackgroundService
 
         // chamada API
         var response = await _httpClient.GetAsync(
-            "https://api.andbank.com.br/candidate/positions",
+            "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             HttpCompletionOption.ResponseHeadersRead,
             stoppingToken
         );
