@@ -1,26 +1,26 @@
-## Aplica��o Console: Respons�vel por consumir os dados da API externa, process�
-los e armazen�-los em um banco de dados PostgreSQL. 
+## Aplicação Console: Responsável por consumir os dados da API externa, processá
+los e armazená-los em um banco de dados PostgreSQL. 
 
-##Falta
+## Falta
  passar pelo DTO (Services)
- Testes unit�rios
- Testes Gerais e corre��es de alguns bugs
+ Testes unitários
+ Testes Gerais e correções de alguns bugs
 
 
 
 
 
 
- ## Documenta��o
- A documenta��o detalhada do projeto est� dispon�vel no arquivo [README.md](../README.md) na raiz do reposit�rio. Este arquivo inclui informa��es sobre a 
- arquitetura do sistema, instru��es de configura��o, detalhes sobre as funcionalidades implementadas e diretrizes para contribuir com o projeto.
+ ## Documentação
+ A documentação detalhada do projeto está disponível no arquivo [README.md](../README.md) na raiz do repositório. Este arquivo inclui informações sobre a 
+ arquitetura do sistema, instruções de configuração, detalhes sobre as funcionalidades implementadas e diretrizes para contribuir com o projeto.
 
- ## Configura��o do Banco de Dados
- A aplica��o utiliza um banco de dados PostgreSQL para armazenar os dados processados. Certifique-se de ter o PostgreSQL instalado e em execu��o.
+ ## Configuração do Banco de Dados
+ A aplicação utiliza um banco de dados PostgreSQL para armazenar os dados processados. Certifique-se de ter o PostgreSQL instalado e em execução.
 
- As configura��es de conex�o com o banco de dados podem ser ajustadas no arquivo `appsettings.json` localizado na raiz do projeto.
+ As configurações de conexão com o banco de dados podem ser ajustadas no arquivo `appsettings.json` localizado na raiz do projeto.
 
- Exemplo de configura��o no `appsettings.json`:
+ Exemplo de configuração no `appsettings.json`:
  ```json
  {
    "ConnectionStrings": {
@@ -30,13 +30,13 @@ los e armazen�-los em um banco de dados PostgreSQL.
  ```	
  Certifique-se de substituir `meu_banco`, `meu_usuario` e `minha_senha` pelas suas credenciais reais do PostgreSQL.
 
- ## Execu��o da Aplica��o
- Para executar a aplica��o, siga os passos abaixo:
- 1. Clone o reposit�rio para sua m�quina local.
+ ## Execução da Aplicação
+ Para executar a aplicação, siga os passos abaixo:
+ 1. Clone o repositório para sua máquina local.
 
- 2. Navegue at� o diret�rio do projeto.
+ 2. Navegue até o diretório do projeto.
 	
 
-	3. Restaure as depend�ncias do projeto utilizando o comando:
+	3. Restaure as dependências do projeto utilizando o comando:
 	```bash
 	
